@@ -1,0 +1,14 @@
+Overview
+1. The project proposes a Differential Flipflop (DFF)and Cross Charge Control (XCFF) especially that minimizes power dissipation by merging logically equivalent transistors.The design achieves up to 75% power reduction compared to conventional flip-flops by reducing the number of clock-related transistors from twelve to three under low data activity conditions.
+
+Key Features:
+1. Cross Charge Control : Merges logically equivalent transistors to reduce clock-related transistor count.
+Power Efficiency: Consumes 75% less power in low data-switching scenarios.
+Compact Design: Reduces transistor count without increasing cell area.
+Simulation Tool: Designed and simulated using Cadence Virtuoso.
+
+Methodology
+1. Analysis of Existing Designs: Evaluated several conventional low-power flip-flops, including TGFF, DiffFF, CCFF, XCFF, and ACFF, identifying inefficiencies in clock-related power consumption.
+2. Topological Compression: Merged logically equivalent AND/OR logic gates at the transistor level to minimize the number of clock-related transistors. Achieved a design with only 3 clock-connected transistors, reducing power dissipation.
+3. Simulation: Simulated the TCFF using Microwind to verify power savings.
+Compared power consumption across different flip-flop designs under various data activity levels.
